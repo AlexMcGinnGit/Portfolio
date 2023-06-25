@@ -1,16 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-  <link rel="stylesheet" type="text/css" href="style.css" />
+<html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Simple Website</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="Header-banner">
-    <div id="Header-banner-block"></div>
-    <h1 id="Header-banner-text">G'day</h1>
-    <h2>My name is Alex McGinn</h2>
-  </div>
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>Simple Website</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="https://www.youtube.com/">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="hero-content">
+        <h1>Welcome to Simple Website</h1>
+        <p>Building clean and functional websites.</p>
+        <a href="#" class="cta-button">Get Started</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about-content">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+        <a href="#" class="cta-button">Learn More</a>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul class="service-list">
+        <li>Web Design</li>
+        <li>Responsive Development</li>
+        <li>Search Engine Optimization</li>
+        <li>Website Maintenance</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Simple Website. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
