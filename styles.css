@@ -14,10 +14,12 @@ body {
 
 
 header {
-  padding: 0.5vh;
+  padding: 0.5vw;
   position: sticky;
   top: 0px;
   background-color: #111614;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -28,33 +30,34 @@ header {
 }
 
 
-.logo h1 {
-  color: #f1f0e2;
-  font-size: 24px;
+.logo img {
+  min-height: 40px;
   text-align: center;
+  padding: 0px;
+  margin: 0px;
+  height: 4vw;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  filter: invert(96%) sepia(3%) saturate(985%) hue-rotate(11deg) brightness(105%) contrast(89%);
 }
-
+.nav {
+  width: 1920px;
+}
 .nav-links {
   list-style: none;
-  text-align: center;
+  text-align: flex;
   
-}
-
-.nav-links li {
-  display: inline-block;
-  margin-left: 6vw;
-  margin-right: 6vw;
-
-
-}
-
-.nav-links :hover {
-  color: #cf2f2d;
 }
 
 .nav-links li a {
   color: #f1f0e2;
   text-decoration: none;
+}
+
+.nav-links :hover {
+  color: #cf2f2d;
 }
 
 #hero {
